@@ -4,12 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "sendgrid"
+    gem.name = "rmm5t-sendgrid"
     gem.summary = %Q{A gem that allows simple integration of ActionMailer with SendGrid (http://sendgrid.com)}
-    gem.description = %Q{This gem allows simple integration between ActionMailer and SendGrid. 
+    gem.description = %Q{This gem allows simple integration between ActionMailer and SendGrid.
                          SendGrid is an email deliverability API that is affordable and has lots of bells and whistles.}
     gem.email = "stephenrb@gmail.com"
-    gem.homepage = "http://github.com/stephenb/sendgrid"
+    gem.homepage = "http://github.com/rmm5t/sendgrid"
     gem.authors = ["Stephen Blankenship"]
     # gem.add_development_dependency "thoughtbot-shoulda"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
